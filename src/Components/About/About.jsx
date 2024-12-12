@@ -49,8 +49,18 @@ const About = () => {
                   Full stack developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                A database is an organized collection of data that enables efficient storage,
-                 retrieval, and management.
+               
+ Full Stack Developer is a professional who can work on both the 
+frontend and backend of a website or application.
+ They handle the visual design and user interface, 
+ ensuring the site looks good and is easy to use,
+  while also managing the behind-the-scenes logic, 
+  databases, and server operations that make the application function.
+   Full Stack Developers use a variety of tools and technologies 
+   like HTML, CSS, JavaScript for the frontend, and languages like Python, 
+   Node.js, or Java for the backend. Their ability
+    to manage all parts of development makes them versatile
+ and essential for creating complete and functional software solutions.
                 </p>
               </span>
             </div>
