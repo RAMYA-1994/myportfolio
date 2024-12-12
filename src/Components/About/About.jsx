@@ -27,19 +27,7 @@ const About = () => {
                 </p>
               </span>
             </div>
-            <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
-
-              <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
-                </h1>
-                <p className="text-sm md:text-md leading-tight">
-                A database is an organized collection of data that enables efficient storage,
-                 retrieval, and management.
-                </p>
-              </span>
-            </div>
+            
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 
@@ -50,6 +38,19 @@ const About = () => {
                 <p className="text-sm md:text-md leading-tight">
                 backend developer with a strong foundation in server-side programming, database management, and API development. Proficient in JavaScript (Node.js) and Python, with hands-on experience in building RESTful APIs,
                  managing MySQL and MongoDB databases, and ensuring secure data handling.
+                </p>
+              </span>
+            </div>
+            <div className="flex gap-3 py-4">
+              <IoArrowForward size={30} className="mt-1" />
+
+              <span className="w-96">
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+                  Database developer
+                </h1>
+                <p className="text-sm md:text-md leading-tight">
+                A database is an organized collection of data that enables efficient storage,
+                 retrieval, and management.
                 </p>
               </span>
             </div>
