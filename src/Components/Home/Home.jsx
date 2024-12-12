@@ -26,7 +26,7 @@ const Home = () => {
 
           {/* Download Resume Button */}
           <button className="ml-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-            <a href="https://drive.google.com/drive/recent" download>
+            <a href="https://drive.google.com/file/d/1QMjufhd4e5w0BOsNmKD3Bbm-n35Zul3b/view?usp=sharing" download>
               Download Resume
             </a>
           </button>
