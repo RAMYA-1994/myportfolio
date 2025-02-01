@@ -1,28 +1,29 @@
 import React from "react";
-import image from "../../assets/photo-C8q0KQHG.webp"
 
-const ProjectCard = ({ title, main, image,vlink,repolink}) => {
+const ProjectCard = ({ image, title, main, vlink, repolink, repolinkBE }) => {
   return (
-    <div className="p-3 md:p-6 flex flex-col w-80 bg-[rgb(12,14,25)] shadow-xl shadow-slate-900 rounded-2xl">
-        <img
-        className="p-4 rounded-lg"
-        src={image || bannerImg}
-        alt={title || "Project Image"}
-      />
-    
-      <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
-        {title}
-      </h3>
-      <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>
-      <div className="mt-2 p-2 md:p-4 flex gap-2 md:gap-4">
-        <a href={vlink}>
-        <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Demo
-        </button></a>
-        <a href={repolink}>
-        <button className="md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Source Code
-        </button></a>
+    <div className="bg-gray-800 p-5 rounded-lg shadow-lg w-full flex flex-col justify-between h-full">
+      <img src={image} alt={title} className="w-full h-40 object-cover rounded-lg" />
+      <h2 className="text-xl font-bold mt-4">{title}</h2>
+      <p className="text-sm text-gray-300 mt-2 flex-grow">{main}</p>
+      
+      {/* Buttons Container - Ensuring 3 buttons in a single line */}
+      <div className="flex justify-center gap-2 mt-4 w-full">
+        <a href={vlink} target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white px-3 py-2 rounded-md text-sm hover:bg-blue-600 flex-1 text-center">
+          Deployed Link
+        </a>
+        <a href={repolink} target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white px-3 py-2 rounded-md text-sm hover:bg-gray-600 flex-1 text-center">
+          GitHub FE
+        </a>
+        {repolinkBE ? (
+          <a href={repolinkBE} target="_blank" rel="noopener noreferrer" className="bg-gray-700 text-white px-3 py-2 rounded-md text-sm hover:bg-gray-600 flex-1 text-center">
+            GitHub BE
+          </a>
+        ) : (
+          <span className="bg-gray-600 text-gray-400 px-3 py-2 rounded-md text-sm flex-1 text-center">
+            No Backend
+          </span>
+        )}
       </div>
     </div>
   );

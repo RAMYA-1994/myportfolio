@@ -19,16 +19,24 @@ const Home = () => {
 
         <div className="mt-5">
           <button className="text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-            <a href="https://www.linkedin.com/in/ramya94" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/RAMYA-1994" target="_blank" rel="noopener noreferrer">
+
               Contact Me
             </a>
           </button> 
 
           {/* Download Resume Button */}
           <button className="ml-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-            <a href="https://drive.google.com/file/d/1QMjufhd4e5w0BOsNmKD3Bbm-n35Zul3b/view?usp=sharing" download>
-              Download Resume
-            </a>
+          <a 
+    href="https://drive.google.com/uc?export=download&id=1OUmoaRWO_POe-Unl_BCKxAikseh8pJMN" 
+    download="Your_Resume.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    aria-label="Download Resume"
+  >
+    Download Resume
+  </a>
+
           </button>
         </div>
 
