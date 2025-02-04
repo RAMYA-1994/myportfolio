@@ -28,7 +28,7 @@ const Home = () => {
           {/* Download Resume Button */}
           <button className="ml-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           <a 
-    href="https://drive.google.com/drive/folders/1OUmoaRWO_POe-Unl_BCKxAikseh8pJMN" 
+    href="https://drive.usercontent.google.com/download?id=1OirG8F6WAgMY4HiC97RBKPrhmzkzN6Ys&export=download&authuser=0&confirm=t&uuid=fa4cc34a-ab6a-4ca2-92a8-d3369c514003&at=AIrpjvNvi1lpEk826we_9oBZegjj:1738662861903" 
     download="Your_Resume.pdf" 
     target="_blank" 
     rel="noopener noreferrer"
